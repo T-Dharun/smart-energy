@@ -1,0 +1,52 @@
+.setup-home{
+    display: flex;
+    justify-content: center;
+    padding-top: 5em;
+}
+.setup{
+    margin:0;
+    padding: 0;
+}
+.setup h2{
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    
+}
+.form-input{
+    padding: 20px;
+}
+.form-main{
+    display: flex;
+    flex-direction: column;
+}
+.form-controls {
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    border: 1px solid rgb(132, 0, 255);
+    margin-block: 0.5em;
+  }
+.target{
+    padding: 20px;
+
+}
+.target label{
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.btn-setup{
+    background-color: rgba(132, 0, 255, 0.836);
+    border: none;
+    padding: 0.5em 1.5em ;
+    font-weight: 500;
+    border-radius: 0.25em;
+    margin-block: 1em;
+    color: white;
+}
+
+.btn-setup:hover{
+    background-color: rgb(81, 0, 158);
+}

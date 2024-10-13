@@ -1,0 +1,35 @@
+.analy-table{
+    background-color: white;
+}
+.analy-table td,.analy-table th{
+    padding-inline: 1em;
+    padding-block: 0.5em;
+    background-color: white;
+    text-align: center;
+}
+.analy-table th{
+    background-color: rgb(219, 219, 219);
+    padding-block: 1em;
+}
+.analy-table button{
+    background-color: blueviolet;
+    color: white;
+    font-size: small;
+    height: 100%;
+    padding: 0.5em;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.2em;
+}   
+.analy-table button:hover{
+    background-color: rgb(94, 0, 181);
+}
+.analy-table-tr:hover{
+    cursor: pointer;
+    color: rgb(138, 0, 197);
+}
+
+.TurnON{
+    background-color: blue;
+}

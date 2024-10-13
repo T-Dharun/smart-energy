@@ -1,0 +1,53 @@
+.analytics{
+    width: 100hw;
+    overflow: scroll;
+}
+.analytics-head{
+    padding: 1em;
+    padding-left: 1.5em;
+    color: rgb(65, 0, 125);
+    background-color: whitesmoke;
+}
+.analytics-home{
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+.analytics-chart{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid rgb(233, 209, 255);
+    margin: 0.5em;
+    width: 100%;
+    max-height: 20em;
+    padding-block: 2em;
+    border-radius: 0.5em;
+}
+.analytics-table{
+    background-color: whitesmoke;
+    padding: 1.5em;
+    padding-top: 0em;
+
+}
+
+.chart-pie{
+width: 50%;
+}
+.chart-bar{
+width: 75%;
+}
+
+
+
+@media (max-width:768px){
+    .analytics-home{
+        flex-direction: column;
+        align-items: center;
+    }
+    .analytics-chart{
+        width: 100%;
+    }
+}

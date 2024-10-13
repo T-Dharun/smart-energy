@@ -1,0 +1,59 @@
+.head{
+    color: blueviolet;
+    font-size: 2em;
+    padding-block: 1em;
+}
+.header{
+    padding: 2em 5em;
+    padding-top: 0%;
+    background-color: whitesmoke;
+}
+.card-head{
+    height: 12em;
+    padding-block: 1em;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-inline: 2em;
+    background-color: rgb(192, 192, 255);
+    align-items: center;
+}
+.card-head-img{
+    height: 5em;
+    padding-block: 0.5em;
+}
+.card-head-title{
+    color: rgb(84, 0, 163);
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.card-head-content{
+    font-size: 0.8em;
+}
+.head-main{
+    justify-content: center;
+    gap: 2em;
+}
+
+.plan-table{
+    padding-inline: 5em;
+    background-color: whitesmoke;
+}
+.plan-main{
+    padding: 1em;
+}
+.plan-main>tr>*{
+    padding: 1em;
+    text-align: center;
+    border: 1px solid blueviolet;
+}
+.plan-title{
+    background-color:rgb(99, 44, 175);
+    color: white;
+}
+.plan-heading{
+    color: blueviolet;
+    font-size: large;
+    padding-block: 1em;
+}

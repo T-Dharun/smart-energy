@@ -1,0 +1,195 @@
+
+.LoginPage{
+    position: fixed;
+    height: 100vh;
+}
+.container{
+    
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding-block: 5em;
+    backdrop-filter: blur(20px);
+    
+}
+.Underline{
+    width: 62px;
+    height:3px;
+    border-radius: 9px;
+    background-color: #bf00ff;
+    margin-bottom: 2em;
+}
+.Header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-weight:900;
+    margin:auto;
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+.pl-3{
+    padding-left: 5px;
+}
+.inputs{
+    display: flex;
+    width: 95%;
+    align-items: center;
+    flex-direction: column;
+    gap:25px;
+    margin:auto;
+}
+.inputs .input{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding-left:3px;
+    background:transparent;
+    border-radius: 0.75em;
+    color:black;
+    border:1px solid blueviolet;
+
+}
+
+.input img{
+    margin:0px 30px;
+}
+.input input{
+    height: 50px;
+    width: 75% ;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 19px;
+}
+.Enter{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    margin:auto;
+    
+}
+.Enter .Signup{
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    height: 40px;
+    color:#fff;
+}
+.Enter .Signup:hover{
+    margin-top: 20px;
+    background-color: purple;
+    
+    border: 2px solid black;
+    border-radius: 12px;
+    
+    text-align: center;
+    height: 40px;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    width: 85px;
+    cursor: pointer;
+}
+
+
+.Enter .Login{
+    margin-top: 20px;
+    background-color: purple;
+    
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 30px;
+    text-align: center;
+    height: 40px;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    width: 75px;
+    cursor: pointer;
+    color:#fff;
+}
+.Enter .Login:hover{
+    margin-top: 20px;
+    background-color: purple;
+    
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 40px;
+    text-align: center;
+    height: 40px;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    width: 80px;
+    cursor: pointer;
+    color:#fff;
+}
+.gray{
+    background-color:#797979 !important;
+}
+.forgot{
+    display: flex;
+    justify-content: center;
+    padding-block: 1em;
+    color:black;
+
+}
+.forgot span{
+    text-decoration: none;
+    color:blueviolet;
+}
+.forgot span:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}
+.Line{
+    border: 2px solid #fff;
+    width: 80%;
+    margin:auto;
+    margin-top: 18px;
+}
+.otherLogin div img{
+   background-color: #fff;
+   padding: 5px;
+   border-radius: 12px;
+}
+.otherLogin div {
+    display: grid;
+    justify-content: center;
+    
+}
+.otherLogin div :hover{
+    background-color: #eaeaea;
+    border: 2px solid #797979;
+}
+.otherLogin p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    margin:0;
+    font-weight: bolder;
+}
+.otherLogin{
+    height: 100%;
+}
+.bu{
+    position: relative;
+    border: none;
+    background-color: rgba(137, 43, 226, 1);
+    padding: 0.5em 2em ;
+    color: white;
+    border-radius: 0.25em;
+    left:40%;
+}
+.bu:hover{
+    background-color: rgb(69, 2, 132);
+}
+
+
+@media (max-width: 576px){
+    .container{
+        padding-top: 20%;
+    }
+}

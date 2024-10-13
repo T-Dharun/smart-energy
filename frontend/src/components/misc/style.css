@@ -1,0 +1,29 @@
+.sidebar-home{
+    position:relative;
+    width: min(80px,10%);
+}
+.sidebar{
+    background-color: rgb(35, 0, 67);
+    position:fixed;
+    width: min(80px,10%);
+    color: white;
+}
+.sidebar-icon{
+    margin-bottom: 0.2em;
+    padding: 1em;
+    cursor: pointer;
+}
+.sidebar-default ,.sidebar-icon:hover{
+    background-color: rgba(79, 0, 152, 0.621);
+}
+.sidebar-app{
+    position: relative;
+    width: min(80px,10%);
+}
+
+@media (max-width:787px){
+    .sidebar{
+        width: 0%;
+        background-color: blue;
+    }
+}
