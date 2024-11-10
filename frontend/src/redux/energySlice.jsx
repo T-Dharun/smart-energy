@@ -41,7 +41,9 @@ const initialState = {
             pointRadius: 2, // Point size
             tension: 0,
         }
-    ]
+    ],
+    devices:[],
+    amount:0,
 }
 
 const handleEnergyValue = (name, value, ind, status) => {
@@ -56,7 +58,6 @@ const handleEnergyValue = (name, value, ind, status) => {
         var power = 219.08 * current;
         return power.toFixed(3);
     }
-    console.log("Dharun")
     console.log(initialState.data[ind]);
 }
 
@@ -76,10 +77,18 @@ export const energySlice = createSlice({
                     id: i + 1
                 }));
             }
+        },
+        setDevices:(i,payload)=>{
+            i.devices=payload.payload;
+            console.log(i.devices)
+        },
+        setAmount:(i,payload)=>{
+            console.log(payload)
+            i.amount=Number(payload.payload);
         }
     }
 
 });
 
-export const { setEnergyValue } = energySlice.actions;
+export const { setEnergyValue , setDevices ,setAmount } = energySlice.actions;
 export default energySlice.reducer; 
