@@ -29,7 +29,7 @@ const EnergyCluster = () => {
                                     <td>{item.name}</td>
                                     <td className="d-none d-md-block d-lg-block h-100">{item.current} A</td>
                                     <td>{item.voltage} V</td>
-                                    <td>{item.power/10} W</td>
+                                    <td>{(item.power/10).toFixed(2)} W</td>
                                     <td className="d-none d-md-block d-lg-block h-100">${item.price}</td>
                                     <td className="h-100">
                                         <button className={!item.status?"TurnOFF bg-danger":"TurnON"} onClick={()=>sendData2Esp32(item)}>{!item.status?"Turn OFF":"Turn ON"}</button>

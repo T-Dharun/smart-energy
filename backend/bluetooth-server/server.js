@@ -6,7 +6,7 @@ const wss = new WebSocket.Server({ port: 4000 }); // Create WebSocket server on 
 
 // Setup serial communication with Arduino
 const port = new SerialPort({
-  path: 'COM6', // Ensure this is the correct port
+  path: 'COM7', // Ensure this is the correct port
   baudRate: 38400, // Match this with the Arduino Serial.begin(9600);
 });
 
